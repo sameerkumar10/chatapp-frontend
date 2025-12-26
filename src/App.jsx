@@ -36,6 +36,7 @@ const App = () => {
       .then(({ data }) => dispatch(userExists(data.user)))
       .catch((err) => {
         console.error("Error fetching user:", err.response || err.message);
+        localStorage.removeItem("sameer-token");
         dispatch(userNotExists());
       });
 }, [dispatch]);

@@ -68,6 +68,7 @@ const Header = () => {
         },
       });
       console.log("Logout Response:", data);
+      localStorage.removeItem("sameer-token");
       dispatch(userNotExists());
       toast.success(data.message);
     } catch (error) {
