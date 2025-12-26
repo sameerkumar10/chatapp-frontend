@@ -6,7 +6,7 @@ import {
   TextField,
   List,
 } from "@mui/material";
-import { React, useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import { useInputValidation } from "6pp";
 import { Search as SearchIcon } from "@mui/icons-material";
 import UserItem from "../shared/UserItem";

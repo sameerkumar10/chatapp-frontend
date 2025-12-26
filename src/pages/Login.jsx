@@ -111,7 +111,7 @@ const Login = () => {
   return (
     <div
       style={{
-        minHeight: "100vh",
+        minHeight: "100dvh",
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
@@ -152,21 +152,23 @@ const Login = () => {
                 <TextField
                   required
                   fullWidth
-                  label="Username "
+                  label="Username"
                   margin="normal"
                   variant="outlined"
                   value={username.value}
                   onChange={username.changeHandler}
+                  InputLabelProps={{ shrink: true }}
                 />
                 <TextField
                   required
                   fullWidth
-                  label="Password "
+                  label="Password"
                   type="password"
                   margin="normal"
                   variant="outlined"
                   value={password.value}
                   onChange={password.changeHandler}
+                  InputLabelProps={{ shrink: true }}
                 />
 
                 <Button
@@ -247,29 +249,32 @@ const Login = () => {
                 <TextField
                   required
                   fullWidth
-                  label="Name "
+                  label="Name"
                   margin="normal"
                   variant="outlined"
                   value={name.value}
                   onChange={name.changeHandler}
+                  InputLabelProps={{ shrink: true }}
                 />
                 <TextField
                   required
                   fullWidth
-                  label="Bio "
+                  label="Bio"
                   margin="normal"
                   variant="outlined"
                   value={bio.value}
                   onChange={bio.changeHandler}
+                  InputLabelProps={{ shrink: true }}
                 />
                 <TextField
                   required
                   fullWidth
-                  label="Username "
+                  label="Username"
                   margin="normal"
                   variant="outlined"
                   value={username.value}
                   onChange={username.changeHandler}
+                  InputLabelProps={{ shrink: true }}
                 />
                 {username.error && (
                   <Typography color="error" variant="caption">
@@ -279,12 +284,13 @@ const Login = () => {
                 <TextField
                   required
                   fullWidth
-                  label="Password "
+                  label="Password"
                   type="password"
                   margin="normal"
                   variant="outlined"
                   value={password.value}
                   onChange={password.changeHandler}
+                  InputLabelProps={{ shrink: true }}
                 />
 
                 <Button

@@ -1,5 +1,5 @@
 import { Avatar, IconButton, Typography, ListItem, Stack } from "@mui/material";
-import { React, memo } from "react";
+import React, { memo } from "react";
 import { Add as AddIcon, Remove as RemoveIcon } from "@mui/icons-material";
 import { transformImage } from "../../lib/features";
 //import { transformImage } from "../../lib/features";

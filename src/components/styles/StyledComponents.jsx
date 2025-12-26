@@ -30,6 +30,11 @@ const InputBox = styled("input")`
   outline: none;
   padding: 0 3rem;
   border-color: ${grayColor};
+  font-size: 1.2rem;
+  &::placeholder {
+    font-size: 1.2rem;
+    color: rgba(0, 0, 0, 0.4);
+  }
 `;
 
 const SearchField = styled("input")`

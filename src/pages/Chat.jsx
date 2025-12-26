@@ -181,7 +181,7 @@ const Chat = ({ chatId, user }) => {
         boxSizing={"border-box"}
         padding={"1rem"}
         spacing={"1rem"}
-        bgcolor={grayColor}
+        bgcolor={"rgba(255, 255, 255, 0.6)"}
         height={"90%"}
         sx={{ overflowX: "hidden", overflowY: "auto" }}
       >
