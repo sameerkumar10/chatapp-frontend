@@ -11,9 +11,9 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <Provider store={store}>
       <HelmetProvider>
         <CssBaseline />
-
         <App />
       </HelmetProvider>
     </Provider>
   </React.StrictMode>
 );
+

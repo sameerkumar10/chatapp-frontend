@@ -63,6 +63,9 @@ const Header = () => {
     try {
       const { data } = await axios.get(`${server}/api/v1/user/logout`, {
         withCredentials: true,
+        headers: {
+          Authorization: `Bearer ${localStorage.getItem("sameer-token")}`,
+        },
       });
       console.log("Logout Response:", data);
       dispatch(userNotExists());

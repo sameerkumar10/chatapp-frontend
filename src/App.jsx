@@ -52,8 +52,6 @@ const App = () => {
                <SocketProvider>
                 <ProtectRoute user={user} />
                </SocketProvider>
-                
-             
             }
           >
             <Route path="/" element={<Home />} />
@@ -83,3 +81,4 @@ const App = () => {
 };
 
 export default App;
+
